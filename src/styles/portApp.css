@@ -51,7 +51,7 @@
 }
 
 .NavDesign a:hover {
-  background-color: lightblue;
+  background-color: rgba(128, 128, 128, 0.185);
   font-size: 25px;
 }
 

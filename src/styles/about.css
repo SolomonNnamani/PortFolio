@@ -52,3 +52,18 @@
 .content > h1 {
   color: #032b44;
 }
+
+@media screen and (max-width: 768px) {
+
+.profileImg > .top {
+  
+  height: 30px;
+  width: 30px;
+}
+
+.profileImg > .bottom {
+  height: 30px;
+  width: 30px;
+}
+
+}

@@ -9,10 +9,12 @@
 }
 .projects {
   text-align: center;
+  background-color: rgba(128, 128, 128, 0.185);
+  padding:10px 10px;
 }
 .projects > h3 {
   color: #032b44;
 }
 .projects > img {
-  width: 600px;
+  width: 100%;
 }

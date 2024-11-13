@@ -1,7 +1,6 @@
 .first-header {
   text-align: center;
   background-color: rgba(128, 128, 128, 0.344);
-  margin: -10px;
   padding: 20px 10px;
 }
 
@@ -16,8 +15,8 @@
 .gridContainer {
   display: grid;
   grid-template-columns: auto auto auto;
-  width: 100%;
-  gap: 2px;
+  
+  gap: 10px;
   padding: 20px;
 }
 
@@ -25,11 +24,12 @@
   background-color: rgba(128, 128, 128, 0.185);
   padding: 10px 20px;
   text-align: center;
-  transition: all 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  line-height: 2;
 }
 
 .gridContainer > div:hover {
-  font-size: 17px;
+  transform: scale(1.02)
 }
 
 .gridContainer > div > h3 {
@@ -69,6 +69,7 @@
   .gridContainer {
     display: grid;
     grid-template-columns: auto;
+    gap:10px
   }
   .iconsContainer {
     display: grid;
