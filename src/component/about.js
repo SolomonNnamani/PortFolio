@@ -3,9 +3,7 @@ import Profilepic from "../images/profile.jpg";
 import "../styles/about.css";
 
 class About extends Component {
-  constructor(props) {
-    super(props);
-  }
+ 
   render() {
     return (
       /*About DashBoard */

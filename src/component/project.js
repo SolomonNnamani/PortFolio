@@ -3,9 +3,7 @@ import "../styles/project.css";
 import porfolio from "../images/portfolio.png";
 
 class Project extends Component {
-  constructor(props) {
-    super(props);
-  }
+ 
 
   render() {
     return (

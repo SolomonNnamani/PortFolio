@@ -72,7 +72,7 @@ class App extends Component {
               {" "}
               <FaGithub />{" "}
             </a>
-            <a href="https://x.com/SSolomon01?t=ZTbu5ZpcYWELVZOuEqZwjg&S=09">
+            <a href="https://x.com/therealnnamani?t=7GmwKXQ6yeHkb-S5OHQopg&s=09">
               {" "}
               <BsTwitterX />{" "}
             </a>
