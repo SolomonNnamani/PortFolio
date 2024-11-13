@@ -32,8 +32,8 @@ class Header extends Component {
 
   Info = () => {
     let heading = data.info;
-    let mapHeading = heading.map((head) => (
-      <div>
+    let mapHeading = heading.map((head,index) => (
+      <div key={index}>
         <h3>{head.heading} </h3>
         <p>{head.text} </p>
       </div>
