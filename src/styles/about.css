@@ -1,0 +1,54 @@
+.aboutContainer {
+  background-color: rgba(128, 128, 128, 0.185);
+}
+
+.profileImg {
+  text-align: center;
+  background-color: rgba(166, 120, 33, 0.462);
+  padding: 20px 0px;
+  position: relative;
+}
+.profileImg > .top {
+  position: absolute;
+  top: 10;
+  left: 30px;
+  background-color: #032b44;
+  display: block;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.profileImg > .bottom {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  background-color: #032b44;
+  display: block;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.profileImg > img {
+  width: 250px;
+  height: 200px;
+  position: relative;
+  border: none;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s ease;
+  border-radius: 10px;
+}
+
+.profileImg > img:hover {
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  padding: 10px 30px 60px;
+  line-height: 2;
+  margin: 0;
+}
+.content > h1 {
+  color: #032b44;
+}

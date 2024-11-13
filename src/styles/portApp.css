@@ -1,0 +1,82 @@
+.app {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: "Barlow", sans-serif;
+}
+
+.NavContainer {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+}
+.NavDesign {
+  background-color: #032b44;
+  width: 150px;
+  height: 100%;
+  right: -150px;
+  position: fixed;
+  padding: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.NavDesign.open {
+  transform: translateX(-150px);
+}
+
+.NavDesign.close {
+  transform: translateX(10px);
+}
+
+.NavDesign > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.NavDesign li {
+  text-align: center;
+}
+
+.NavDesign a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 10px 0 10px 0;
+  width: 100%;
+  margin-top: 6px;
+}
+
+.NavDesign a:hover {
+  background-color: lightblue;
+  font-size: 25px;
+}
+
+.headDiv {
+  background-color: #032b44;
+  height: 50px;
+  color: white;
+  position: relative;
+  padding: 10px 0 0 20px;
+  z-index: 1000;
+  margin: 0;
+}
+.headDiv > .isVisibleBtn {
+  position: absolute;
+  right: 0;
+  z-index: 2000;
+  top: 10px;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+.headDiv > .LinkContainer > a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 20px;
+}

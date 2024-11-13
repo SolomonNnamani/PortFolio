@@ -1,0 +1,18 @@
+.projectContainer {
+  background-color: rgb(248, 245, 245);
+  margin: 0;
+  padding: 10px 20px;
+  line-height: 2;
+}
+.projectContainer > h1 {
+  color: #032b44;
+}
+.projects {
+  text-align: center;
+}
+.projects > h3 {
+  color: #032b44;
+}
+.projects > img {
+  width: 600px;
+}
