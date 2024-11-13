@@ -23,7 +23,7 @@ const Navbar = (props) => {
 
   return (
     <div className="NavContainer">
-      <nav className={`NavDesign  ${isVisible ? "close" : "open"}`}>
+      <nav className={`NavDesign  ${isVisible ? "clo" : "open"}`}>
         <ul>
           <li>
             <NavLink to="/">Home</NavLink>{" "}

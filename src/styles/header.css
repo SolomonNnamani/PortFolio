@@ -51,8 +51,8 @@
 }
 
 .third-header > .profilePic > img {
-  width: 350px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 100%;
 }
 
@@ -74,5 +74,14 @@
   .iconsContainer {
     display: grid;
     grid-template-columns: auto auto;
+  }
+  .second-header {
+    padding:10px 20px
+  }
+  .third-header > .profilePic > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin:10px;
   }
 }
