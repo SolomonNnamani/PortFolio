@@ -78,7 +78,7 @@ class App extends Component {
             </a>
           </div>
           <button onClick={this.DisplayButton} className="isVisibleBtn">
-            {this.state.isVisible ? <MdCancel /> : <CiSliderHorizontal />}{" "}
+            {this.state.isVisible ? <CiSliderHorizontal  /> :   <MdCancel /> }{" "}
           </button>{" "}
           <br />
         </div>
