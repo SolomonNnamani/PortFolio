@@ -4,7 +4,6 @@
   left: 0;
   top: 0;
   font-family: "Barlow", sans-serif;
-  background-image: linear-gradient(to bottom,#74D8FF, white);
 }
 
 .NavContainer {
@@ -85,12 +84,12 @@
 }
 @media screen and (max-width: 768px) {
   .NavDesign {
-    width: 500px;
-    right: -500px;
+    width: 768px;
+    right: -768px;
   }
 
   .NavDesign.open {
-    transform: translateX(-500px);
+    transform: translateX(-768px);
   }
 
 }
