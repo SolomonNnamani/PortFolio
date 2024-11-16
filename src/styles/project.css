@@ -3,6 +3,7 @@
   margin: 0;
   padding: 10px 20px;
   line-height: 2;
+  background-image: linear-gradient(to bottom,#74D8FF, white);
 }
 .projectContainer > h1 {
   color: #032b44;
@@ -16,5 +17,5 @@
   color: #032b44;
 }
 .projects > img {
-  width: 100%;
+  width: 80%;
 }

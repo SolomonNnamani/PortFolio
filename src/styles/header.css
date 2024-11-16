@@ -54,6 +54,7 @@
   width: 250px;
   height: 250px;
   border-radius: 100%;
+  border:8px solid #032b44 ;
 }
 
 .library {
@@ -84,4 +85,12 @@
     border-radius: 100%;
     margin:10px;
   }
+  .first-header > h1{
+   height:110px;
+  margin-bottom: 0;
+}
+  .first-header > p {
+    margin-top: 0px;
+  }
+
 }

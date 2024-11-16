@@ -22,7 +22,7 @@ class Header extends Component {
         special: data.special[prevState.index],
         index: (prevState.index + 1) % data.special.length,
       }));
-    }, 1000);
+    }, 2000);
     this.Info();
   }
 
@@ -52,7 +52,7 @@ class Header extends Component {
         <div className="first-header">
           <h1>
             Hi! I'm {data.firstName} <br />{" "}
-            <span style={{ color: "#032b44" }}>{this.state.special} </span>{" "}
+            <span className="headSpecial" style={{ color: "#032b44" }}>{this.state.special} </span>{" "}
           </h1>
           <p>
             Combining modern technology and creativity, i design and build

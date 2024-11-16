@@ -2,13 +2,31 @@
   background-color: #032b44;
   color: white;
   padding: 20px 20px;
+  text-align: center;
+
 }
 .footerContainer > a {
   text-decoration: none;
-  display: block;
-  color: orange;
-  margin-bottom: 10em;
+  display: inline-block;
+  color: #74D8FF;
 }
-.footerContainer > p {
+.footerContainer > .copy {
   text-align: center;
+}
+.linkCenter{
+  text-align:center;
+}
+.linkCenter > a{
+  text-decoration: none;
+  color: #74D8FF;
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .linkCenter > a{
+    font-size: 20px;
+  }
+
 }

@@ -1,12 +1,13 @@
 .aboutContainer {
   background-color: rgba(128, 128, 128, 0.185);
+  background-image: linear-gradient(to bottom,#74D8FF, white);
 }
 
 .profileImg {
   text-align: center;
-  background-color: rgba(166, 120, 33, 0.462);
   padding: 20px 0px;
   position: relative;
+  display: block;
 }
 .profileImg > .top {
   position: absolute;
@@ -34,15 +35,15 @@
   width: 250px;
   height: 200px;
   position: relative;
-  border: none;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-  transition: box-shadow 0.3s ease;
+  border: 10px solid #032b44 ;
+  transition: all 0.3s ease;
   border-radius: 10px;
 }
 
 .profileImg > img:hover {
   box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
 }
+
 
 .content {
   padding: 10px 30px 60px;
@@ -56,14 +57,12 @@
 @media screen and (max-width: 768px) {
 
 .profileImg > .top {
+  background-color: transparent;
   
-  height: 30px;
-  width: 30px;
 }
 
 .profileImg > .bottom {
-  height: 30px;
-  width: 30px;
+  background-color: transparent;
 }
 
 }
