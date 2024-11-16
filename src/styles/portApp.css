@@ -87,10 +87,16 @@
   .NavDesign {
     width: 768px;
     right: -768px;
+    text-align: center;
   }
 
   .NavDesign.open {
     transform: translateX(-768px);
   }
+
+  .NavDesign a {
+    text-align: center;
+  }
+  
 
 }
