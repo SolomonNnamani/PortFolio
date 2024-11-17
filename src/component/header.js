@@ -89,7 +89,7 @@ class Header extends Component {
               <FaSass className="icons" style={{ color: "#c51077" }} />
               <IoLogoJavascript className="icons" style={{ color: "yellow" }} />
               <DiNodejs className="icons" style={{ color: "green" }} />
-              <FaReact className="icons" style={{ color: "blue" }} />
+              <FaReact className="icons" style={{ color: "skyblue" }} />
             </div>
           </div>
         </div>
