@@ -33,7 +33,7 @@ const Navbar = (props) => {
             <NavLink to="/" onClick={handleNavClick}>Home</NavLink>{" "}
           </li>
           <li>
-            <NavLink to="/about" onClick={handleNavClick}>About</NavLink>{" "}
+            <NavLink to="/about" onClick={handleNavClick}>About</NavLink>
           </li>
           <li>
             <NavLink to="/project" onClick={handleNavClick}>Projects </NavLink>{" "}

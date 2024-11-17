@@ -1,6 +1,6 @@
 .first-header {
   text-align: center;
-  background-color: rgba(128, 128, 128, 0.344);
+  background-color: #74D8FF;
   padding: 20px 10px;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .gridContainer > div {
-  background-color: rgba(128, 128, 128, 0.185);
+  background-color: #74D8FF;
   padding: 10px 20px;
   text-align: center;
   transition: transform 0.3s ease-in-out;
@@ -58,7 +58,7 @@
 }
 
 .library {
-  background-color: rgba(128, 128, 128, 0.132);
+  background-color: #74D8FF;
   padding: 10px 15px 50px;
   text-align: center;
 }
